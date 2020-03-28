@@ -21,3 +21,12 @@
  * Request Body: Corpo da requisição, utilizado para criar 
  * ou alterar recursos. => app.post / request.body
  */
+
+/**
+  * ESTADOS
+  * const [ counter, setCounter ] = useState(0);
+  * 									Array [valor, funcaoAtualizacao]	
+  * function increment() {
+  *      setCounter(counter + 1);
+  *  }
+  */

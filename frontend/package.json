@@ -6,15 +6,32 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.2",
+    "multi-download": "^2.0.1",
+    "normalize.css": "^8.0.0",
+    "prop-types": "^15.6.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-icons": "^3.9.0",
+    "react-redux": "^5.1.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "soundcloud": "^3.3.0",
+    "spinkit": "^1.2.5"
   },
   "scripts": {
+    "format": "prettier --write src/**/*",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "react-scripts test --env=jsdom",
+    "styleguide": "styleguidist server --open"
+  },
+  "devDependencies": {
+    "prettier": "^1.14.3",
+    "react-scripts": "^2.0.5",
+    "react-styleguidist": "^8.0.2"
   },
   "eslintConfig": {
     "extends": "react-app"
